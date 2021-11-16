@@ -34,7 +34,7 @@ public class FaVActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fa_vactivity);
 
-        recyclerView = findViewById(R.id.pokemon_recyclerView);
+        recyclerView = findViewById(R.id.fav_recyclerView);
         adapter = new PokemonAdapter(this);
         recyclerView.setAdapter(adapter);
         setupSwipe();
